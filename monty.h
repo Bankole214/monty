@@ -95,4 +95,8 @@ void f_mul(stack_t **head, unsigned int counter);
 void f_div(stack_t **head, unsigned int counter);
 void f_sub(stack_t **head, unsigned int counter);
 void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
+
+
+void f_queue(stack_t **head, unsigned int counter);
+void addqueue(stack_t **head, int n);
 #endif
