@@ -1,5 +1,7 @@
 #include "monty.h"
-void execute_cmd(cmd_t cmd);
+
+cmd_t cmd = {NULL, NULL};
+
 /**
  *execute - reads the file and executes the monty byte
  *@argv: argument vector
