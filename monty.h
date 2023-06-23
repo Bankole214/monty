@@ -86,4 +86,13 @@ int _isdigit(char *c);
 stack_t *createNode(int n);
 void execute_cmd(cmd_t cmd);
 
+
+
+void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int counter);
+void f_pstr(stack_t **head, unsigned int counter);
+void f_mod(stack_t **head, unsigned int counter);
+void f_mul(stack_t **head, unsigned int counter);
+void f_div(stack_t **head, unsigned int counter);
+void f_sub(stack_t **head, unsigned int counter);
+void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter);
 #endif
