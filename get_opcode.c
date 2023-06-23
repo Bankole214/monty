@@ -1,4 +1,4 @@
-
+#include "monty.h"
 /**
  * get_opc - gets the opcode function
  * @stack: pointer to the stack or queue
